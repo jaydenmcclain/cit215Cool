@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice 2</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" placeholder="Name" v-model="username"/>
+    <input type="text" placeholder="Email" v-model="email">
+    <div>{{warning}}</div>
+    <div>{{done}}</div>
+    <counter v-for="item in list" v-bind:pp="item"></counter>
+</div>
+
+
+<script src="vue.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
